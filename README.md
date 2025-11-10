@@ -1,6 +1,6 @@
 # AI-Powered Obsidian Note Automation
 
-## 📋 Description
+##  Description
 
 This project provides a script to automate the creation of well-structured, intelligently-linked notes within an Obsidian vault directly from clipboard content. It leverages Google's Gemini API to perform semantic analysis on the clipboard text, automatically generating Markdown-formatted notes with relevant wikilinks to existing concepts in your vault.
 
@@ -11,7 +11,7 @@ This tool is particularly beneficial for:
   * **Developers** building technical documentation and personal knowledge bases.
   * **All Obsidian users** seeking to enhance their knowledge management workflow.
 
-## 🚀 Core Features
+##  Core Features
 
   * **Clipboard Integration**: Captures content from any source via the system clipboard (Ctrl+C).
   * **Recursive Vault Scanning**: Indexes all existing notes across your vault's folders and subfolders to build a linking context.
@@ -21,7 +21,7 @@ This tool is particularly beneficial for:
   * **Efficient Performance**: Utilizes the cloud API for rapid note generation, typically within 2-5 seconds.
   * **Cross-Platform**: Fully compatible with Windows, macOS, and Linux.
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 **⚠️ Important:** Never commit your `config.py` file to version control. The repository's `.gitignore` file is already configured to exclude it.
 
-## 📖 Usage
+##  Usage
 
 ### Basic Operation
 
@@ -95,7 +95,7 @@ The resulting note (`Two Sum Problem.md`) will feature:
   * Structured sections for the problem, solution, and analysis.
   * Automatic wikilinks to related notes, such as `[[Arrays]]`, `[[Hash Tables]]`, and `[[Time Complexity]]`.
 
-## 🎯 Example Use Cases
+##  Example Use Cases
 
 ### For Students
 
@@ -115,7 +115,7 @@ The resulting note (`Two Sum Problem.md`) will feature:
   * Organize technical articles and tutorials into a personal wiki.
   * Maintain interconnected notes on system architecture and design patterns.
 
-## ⚙️ Configuration Details
+##  Configuration Details
 
 ### Vault Path
 
@@ -139,7 +139,7 @@ MODEL_LIST = [
 ]
 ```
 
-## 📊 API & Rate Limits (Free Tier)
+##  API & Rate Limits (Free Tier)
 
 The free tier for the Gemini API generally includes:
 
@@ -148,7 +148,7 @@ The free tier for the Gemini API generally includes:
 
 The built-in model fallback system helps maximize this free quota by distributing requests across the different available models.
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### "Error: config.py not found\!"
 
@@ -184,7 +184,7 @@ pip install --upgrade google-generativeai pyperclip
   * The script defaults to UTF-8 encoding, which supports international characters and technical symbols.
   * Ensure your source text and Obsidian vault are also configured for UTF-8.
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ai-obsidian-notes/
@@ -196,14 +196,14 @@ ai-obsidian-notes/
 └── .gitignore              # Ensures config.py and other files are not tracked
 ```
 
-## 🔒 Privacy & Security
+##  Privacy & Security
 
   * Your clipboard content is transmitted to Google's Gemini API for processing.
   * Your API key is stored locally in `config.py` and should **never** be shared or committed to version control.
   * The `.gitignore` file is pre-configured to prevent accidental uploading of `config.py`.
   * For highly sensitive information, consider using local, self-hosted LLM alternatives.
 
-## 🚀 Advanced Customization
+##  Advanced Customization
 
 ### Customizing the System Prompt
 
@@ -246,11 +246,11 @@ Contributions to this project are welcome. Please feel free to:
   * Suggest new features or enhancements.
   * Submit pull requests with improvements.
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
-## 🎓 Academic Project
+##  Academic Project
 
 This was developed as a **B.Tech (AI\&DS) Mini Project** for the **Computational Thinking** course (23AID101).
 
@@ -258,7 +258,7 @@ This was developed as a **B.Tech (AI\&DS) Mini Project** for the **Computational
   * **Department**: Artificial Intelligence and Data Science
   * **Semester**: I
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
   * The Google Gemini API team for providing powerful semantic models.
   * The Obsidian community for its inspiration and robust platform.
@@ -273,3 +273,4 @@ For questions, suggestions, or issues, please open an issue on the GitHub reposi
 -----
 
 **⭐ If this project proves useful, please consider giving it a star on GitHub\!**
+
